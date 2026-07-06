@@ -1,0 +1,25 @@
+# dependencies
+node_modules
+
+# build artifacts (TS)
+*.tsbuildinfo
+
+# env
+.env
+.env.local
+.env.*.local
+
+# os / editor
+.DS_Store
+Thumbs.db
+.idea
+.vscode/*
+!.vscode/extensions.json
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# NOTE: on NE ignore PAS public/r/ — les JSON buildés doivent être
+# committés pour être servis via raw.githubusercontent.com

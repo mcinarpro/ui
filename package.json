@@ -1,0 +1,30 @@
+{
+  "name": "mcinar-ui",
+  "version": "0.1.0",
+  "description": "mcinar personal shadcn registry",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "registry:build": "shadcn build",
+    "registry:validate": "shadcn registry validate registry.json",
+    "registry:view": "shadcn view @mcinar/tokens"
+  },
+  "keywords": [],
+  "author": "mcinar",
+  "license": "MIT",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.9.0",
+      "onFail": "download"
+    }
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "shadcn": "^4.13.0",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "radix-ui": "^1.6.1"
+  }
+}
