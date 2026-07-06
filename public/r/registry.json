@@ -48,7 +48,7 @@
       "type": "registry:ui",
       "title": "Badge",
       "description": "Badge with success / warning / info variants.",
-      "dependencies": ["class-variance-authority", "radix-ui"],
+      "dependencies": ["class-variance-authority", "@base-ui/react"],
       "registryDependencies": ["@mcinar/tokens"],
       "files": [
         { "path": "registry/ui/badge.tsx", "type": "registry:ui" }
