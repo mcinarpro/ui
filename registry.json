@@ -64,6 +64,50 @@
       "files": [
         { "path": "registry/ui/alert.tsx", "type": "registry:ui" }
       ]
+    },
+    {
+      "name": "signin-form",
+      "type": "registry:block",
+      "title": "Sign In Form",
+      "description": "A complete sign in page with email and password validation.",
+      "dependencies": ["@tanstack/react-form", "lucide-react", "zod"],
+      "registryDependencies": ["button", "card", "input-group", "spinner", "field"],
+      "files": [
+        { "path": "registry/blocks/signin-form.tsx", "type": "registry:block" }
+      ]
+    },
+    {
+      "name": "signup-form",
+      "type": "registry:block",
+      "title": "Sign Up Form",
+      "description": "A complete signup page with name, email, password and confirmation.",
+      "dependencies": ["@tanstack/react-form", "lucide-react", "zod"],
+      "registryDependencies": ["button", "card", "input-group", "spinner", "field"],
+      "files": [
+        { "path": "registry/blocks/signup-form.tsx", "type": "registry:block" }
+      ]
+    },
+    {
+      "name": "forgot-password-form",
+      "type": "registry:block",
+      "title": "Forgot Password Form",
+      "description": "A forgot password page with email input and success state.",
+      "dependencies": ["@tanstack/react-form", "lucide-react", "zod"],
+      "registryDependencies": ["button", "card", "input-group", "spinner", "field", "@mcinar/alert"],
+      "files": [
+        { "path": "registry/blocks/forgot-password-form.tsx", "type": "registry:block" }
+      ]
+    },
+    {
+      "name": "reset-password-form",
+      "type": "registry:block",
+      "title": "Reset Password Form",
+      "description": "A reset password page with new password and confirmation.",
+      "dependencies": ["@tanstack/react-form", "lucide-react", "zod"],
+      "registryDependencies": ["button", "card", "input-group", "spinner", "field", "@mcinar/alert"],
+      "files": [
+        { "path": "registry/blocks/reset-password-form.tsx", "type": "registry:block" }
+      ]
     }
   ]
 }
