@@ -16,7 +16,7 @@
     "ui": "@/registry/ui",
     "lib": "@/registry/lib",
     "hooks": "@/registry/hooks",
-    "utils": "@/registry/lib/utils"
+    "utils": "@/lib/utils"
   },
   "registries": {}
 }
