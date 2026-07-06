@@ -1,6 +1,6 @@
 {
   "name": "mcinar-ui",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "mcinar personal shadcn registry",
   "private": true,
   "type": "module",

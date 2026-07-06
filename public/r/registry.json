@@ -23,7 +23,10 @@
           "--color-warning": "var(--warning)",
           "--color-warning-foreground": "var(--warning-foreground)",
           "--color-info": "var(--info)",
-          "--color-info-foreground": "var(--info-foreground)"
+          "--color-info-foreground": "var(--info-foreground)",
+          "--color-success-text": "var(--success-text)",
+          "--color-warning-text": "var(--warning-text)",
+          "--color-info-text": "var(--info-text)"
         },
         "light": {
           "--success": "oklch(0.68 0.18 150)",
@@ -31,7 +34,10 @@
           "--warning": "oklch(0.68 0.18 62)",
           "--warning-foreground": "oklch(0.27 0.04 62)",
           "--info": "oklch(0.58 0.18 252)",
-          "--info-foreground": "oklch(0.99 0 0)"
+          "--info-foreground": "oklch(0.99 0 0)",
+          "--success-text": "oklch(0.50 0.15 150)",
+          "--warning-text": "oklch(0.48 0.13 62)",
+          "--info-text": "oklch(0.50 0.17 252)"
         },
         "dark": {
           "--success": "oklch(0.66 0.16 150)",
@@ -39,7 +45,10 @@
           "--warning": "oklch(0.74 0.17 62)",
           "--warning-foreground": "oklch(0.22 0.03 62)",
           "--info": "oklch(0.62 0.16 252)",
-          "--info-foreground": "oklch(0.99 0 0)"
+          "--info-foreground": "oklch(0.99 0 0)",
+          "--success-text": "oklch(0.78 0.16 150)",
+          "--warning-text": "oklch(0.82 0.15 62)",
+          "--info-text": "oklch(0.74 0.16 252)"
         }
       }
     },
